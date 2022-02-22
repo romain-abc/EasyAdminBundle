@@ -14,6 +14,7 @@
   "bundles/easyadmin/field-textarea.js": "./field-textarea.js",
   "bundles/easyadmin/field-text-editor.css": "./field-text-editor.css",
   "bundles/easyadmin/field-text-editor.js": "./field-text-editor.js",
+  "bundles/easyadmin/form-type-embedded-list.js": "./form-type-embedded-list.js",
   "bundles/easyadmin/login.js": "./login.js",
   "bundles/easyadmin/fonts/fa-solid-900.svg": "./fonts/fa-solid-900.7a8b4f130182d19a2d7c67d80c090397.svg",
   "bundles/easyadmin/images/fa-solid-900.svg": "./images/fa-solid-900.7a8b4f13.svg",
