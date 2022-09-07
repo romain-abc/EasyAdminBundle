@@ -12,6 +12,10 @@ Encore
     .enableVersioning(true)
     .disableSingleRuntimeChunk()
 
+    .configureBabel((config) => {
+        config.plugins.push('@babel/plugin-transform-runtime');
+    })
+
     // copy FontAwesome fonts
     .copyFiles({
         from: './node_modules/@fortawesome/fontawesome-free/webfonts/',
@@ -57,6 +61,7 @@ Encore
     .addEntry('field-slug', './assets/js/field-slug.js')
     .addEntry('field-textarea', './assets/js/field-textarea.js')
     .addEntry('field-text-editor', './assets/js/field-text-editor.js')
+    .addEntry('form-type-embedded-list', './assets/js/form-type-embedded-list.js')
     .addEntry('login', './assets/js/login.js')
 ;
 

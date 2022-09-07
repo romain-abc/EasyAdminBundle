@@ -47,6 +47,12 @@ final class CrudResponseListener
             }
         }
 
+        if ($block = $event->getRequest()->query->get(EA::TEMPLATE_BLOCK)) {
+            $event->setResponse(new Response($this->twig->load($templatePath)->renderBlock($block, $templateParameters)));
+
+            return;
+        }
+
         $event->setResponse(new Response($this->twig->render($templatePath, $templateParameters)));
     }
 }
