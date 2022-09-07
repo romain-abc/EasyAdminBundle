@@ -72,11 +72,6 @@
         "/field-text-editor.5848d9aa.js"
       ]
     },
-    "form-type-embedded-list": {
-      "js": [
-        "./form-type-embedded-list.js"
-      ]
-    },
     "login": {
       "js": [
         "/login.7259f5de.js"
