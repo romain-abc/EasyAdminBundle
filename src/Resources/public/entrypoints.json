@@ -2,79 +2,79 @@
   "entrypoints": {
     "app": {
       "css": [
-        "/app.11183413.css",
-        "/app.11183413.rtl.css"
+        "./app.css",
+        "./app.rtl.css"
       ],
       "js": [
-        "/app.2fd2f280.js"
+        "./app.js"
       ]
     },
     "form": {
       "js": [
-        "/form.640f3bdf.js"
+        "./form.js"
       ]
     },
     "page-layout": {
       "js": [
-        "/page-layout.3347892e.js"
+        "./page-layout.js"
       ]
     },
     "page-color-scheme": {
       "js": [
-        "/page-color-scheme.f676dfa6.js"
+        "./page-color-scheme.js"
       ]
     },
     "field-boolean": {
       "js": [
-        "/field-boolean.33d03224.js"
+        "./field-boolean.js"
       ]
     },
     "field-code-editor": {
       "css": [
-        "/field-code-editor.09574d54.css",
-        "/field-code-editor.09574d54.rtl.css"
+        "./field-code-editor.css",
+        "./field-code-editor.rtl.css"
       ],
       "js": [
-        "/field-code-editor.f483315e.js"
+        "./field-code-editor.js"
       ]
     },
     "field-collection": {
       "js": [
-        "/field-collection.c6a8940b.js"
+        "./field-collection.js"
       ]
     },
     "field-file-upload": {
       "js": [
-        "/field-file-upload.71a03f67.js"
+        "./field-file-upload.js"
       ]
     },
     "field-image": {
       "js": [
-        "/field-image.c14f1295.js"
+        "./field-image.js"
       ]
     },
     "field-slug": {
       "js": [
-        "/field-slug.1c789293.js"
+        "./field-slug.js"
       ]
     },
     "field-textarea": {
       "js": [
-        "/field-textarea.f496dd73.js"
+        "./field-textarea.js"
       ]
     },
     "field-text-editor": {
       "css": [
-        "/field-text-editor.7348fb97.css",
-        "/field-text-editor.7348fb97.rtl.css"
+        "./field-text-editor.css",
+        "./field-text-editor.rtl.css"
       ],
       "js": [
-        "/field-text-editor.5848d9aa.js"
+        "./field-text-editor.js"
       ]
     },
     "login": {
       "js": [
-        "/login.7259f5de.js"
+        "./login.js"
       ]
     }
   }
