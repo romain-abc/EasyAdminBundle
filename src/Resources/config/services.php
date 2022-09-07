@@ -92,11 +92,7 @@ return static function (ContainerConfigurator $container) {
         ->instanceof(FieldConfiguratorInterface::class)->tag(EasyAdminExtension::TAG_FIELD_CONFIGURATOR)
         ->instanceof(FilterConfiguratorInterface::class)->tag(EasyAdminExtension::TAG_FILTER_CONFIGURATOR);
 
-    $services->set(EmbeddedListType::class)
-            ->arg(0, new Reference(AdminUrlGenerator::class))
-            ->arg(1, new Reference(CrudControllerRegistry::class))
-        ->tag('form.type')
-
+    $services
         ->set(MakeAdminDashboardCommand::class)->public()
             ->arg(0, new Reference(ClassMaker::class))
             ->arg(1, '%kernel.project_dir%')
