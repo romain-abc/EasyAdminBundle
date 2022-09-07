@@ -3,6 +3,7 @@
 namespace EasyCorp\Bundle\EasyAdminBundle\EventListener;
 
 use EasyCorp\Bundle\EasyAdminBundle\Config\KeyValueStore;
+use EasyCorp\Bundle\EasyAdminBundle\Config\Option\EA;
 use EasyCorp\Bundle\EasyAdminBundle\Provider\AdminContextProvider;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\HttpFoundation\Response;
