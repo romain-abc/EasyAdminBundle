@@ -97,7 +97,6 @@ return static function (ContainerConfigurator $container) {
             ->arg(1, new Reference(CrudControllerRegistry::class))
         ->tag('form.type')
 
-    $services
         ->set(MakeAdminDashboardCommand::class)->public()
             ->arg(0, new Reference(ClassMaker::class))
             ->arg(1, '%kernel.project_dir%')
